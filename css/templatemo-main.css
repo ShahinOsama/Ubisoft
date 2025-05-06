@@ -205,9 +205,19 @@ a:hover { color: #FF0; }
 }
 
 .baner-content {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;       
+  width: 100vw;
+  height: 100vh;
   text-align: center;
   background-image: url(../img/avatarbg1.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  position: relative; 
 }
 
 .baner-content h1 {
