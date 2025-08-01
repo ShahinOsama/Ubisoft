@@ -200,7 +200,7 @@ a:hover { color: #FF0; }
 
 .image-content img {
   transition: 1s ease-in;
-  max-width: 90%;
+  max-width: 70%;
   height: auto; 
 }
 
